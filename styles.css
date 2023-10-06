@@ -3,12 +3,14 @@
 /* This is my theme color ---->#18181B */
 :root {
   --primary-color: #18181b;
+  --off-white: #f3f4f6;
   --dark-gray: #6b7280;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #e7e5e4;
+  margin: 0px;
 }
 
 hr {
@@ -99,4 +101,35 @@ hr {
 
 .hero .hero-heading .header-inverted {
   color: var(--primary-color);
+}
+
+/* sections */
+
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+/* footers */
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
 }
