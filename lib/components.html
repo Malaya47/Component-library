@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Malaya Tiwari portfolio</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <h1>Malaya's component library</h1>
+    <p>
+      I am attending neog.camp and is currently completing levelZero one weekend
+      and assignment at a time.
+    </p>
+    <p>
+      This is a component library created by her to better design each element.
+    </p>
+
+    <hr />
+
+    <h2>@typography</h2>
+    <h1>This is the biggest heading h1</h1>
+    <h2>This is the second biggest heading h2</h2>
+    <p>
+      This is normal text. Long running text would look like this on your
+      website. This will auto fold based on the width
+    </p>
+    <small>This is relatively smaller text</small>
+    <hr />
+
+    <h2>@containers</h2>
+
+    <h3>@fluid container</h3>
+    <div class="container container-fluid">
+      This is going to be a fluid container. It will go full width of page. With
+      some margin.
+    </div>
+    <h3>@center container</h3>
+    <div class="container container-center">
+      This is going to be a center container. It will go till a given width and
+      center content.
+    </div>
+    <hr />
+    <h2>@links</h2>
+    <a class="link link-primary" href="#">Primary Link</a>
+    <a class="link link-secondary" href="#">Secondary Link</a>
+    <hr />
+    <h2>@lists</h2>
+    <h3>unordered lists</h3>
+    <p>
+      We don't want to show bullets in the unordered list. We'll remove that
+      with CSS.
+    </p>
+    <ul class="list-non-bullet">
+      <li>item one</li>
+      <li>item two</li>
+      <li>item three</li>
+    </ul>
+    <h3>unordered inline list</h3>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">Inline Item one</li>
+      <li class="list-item-inline">Inline Item Two</li>
+      <li class="list-item-inline">Inline Item Three</li>
+    </ul>
+    <h3>reverse ordered list</h3>
+    <ol reversed>
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+    </ol>
+    <hr />
+    <h2>@nav</h2>
+    <p>
+      Navigation is used on the top of the page and used to get to different
+      pages
+    </p>
+    <nav class="navigation container">
+      <div class="nav-brand">Malaya Tiwari</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="#">home</a>
+        </li>
+        <li class="list-item-inline"><a class="link" href="#">projects</a></li>
+        <li class="list-item-inline"><a class="link" href="#">blogs</a></li>
+      </ul>
+    </nav>
+    <hr />
+    <h2>@header</h2>
+    <header class="hero">
+      <img class="hero-img" src="images/developer-image.svg" />
+      <h1 class="hero-heading">
+        Malaya Tiwari the <span class="header-inverted">web developer</span>
+      </h1>
+    </header>
+    <hr />
+    <h2>section</h2>
+    <p>
+      A section is used to separate parts of pages. In marketing websites you
+      would have seen a header followed by sections of features, team, pricing,
+      contact info etc.
+    </p>
+    <h3>@normal section</h3>
+    <section class="section">
+      <div class="container container-center">
+        <h1>heading inside section</h1>
+        <p>
+          Text defining this section and many more things Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Quidem commodi incidunt nihil
+          inventore dolores! Aut possimus enim tempora doloremque! Ipsa eaque
+          harum dolorem alias?
+        </p>
+        <a href="#">Primary Button </a>
+      </div>
+    </section>
+    <h3>@an off white section</h3>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>inside off white section</h1>
+        <p>
+          Text defining this section and many more things Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Quidem commodi incidunt nihil
+          inventore dolores! Aut possimus enim tempora doloremque! Ipsa eaque
+          harum dolorem alias?
+        </p>
+        <a href="#">Primary Button </a>
+      </div>
+    </section>
+    <hr />
+    <footer class="footer">
+      <div class="footer-header">some small heading inside footer</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline"><a class="link" href="">socialone</a></li>
+        <li class="list-item-inline"><a class="link" href="">socialTwo</a></li>
+        <li class="list-item-inline">
+          <a class="link" href="">socialThree</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
